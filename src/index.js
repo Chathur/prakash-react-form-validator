@@ -69,7 +69,7 @@ export default class Validator extends React.Component{
     }
     email( rule, value){
         if (rule === true){
-            debugger;
+            
             return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value);
         }
         return false;

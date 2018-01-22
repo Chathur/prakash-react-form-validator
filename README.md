@@ -1,4 +1,4 @@
-# prakash-react-form-validator
+# react-forms-validator
 
 Component to provide simple form validation for React components. 
 
@@ -7,7 +7,7 @@ If you find any bug or error, please feel free to raise an issue. Pull requests 
 ## Installation
 
 ``
-npm i -S prakash-react-form-validator
+npm i -S react-forms-validator
 ``
 
 
@@ -17,12 +17,12 @@ first of all import the module.
 
 That's it. We can now use it in our React components:
 
->import Validator from 'prakash-react-form-validator';
+>import Validator from 'react-forms-validator';
 
 ```javascript
 
 import React, { Component } from 'react';
-import Validator from 'prakash-react-form-validator';
+import Validator from 'react-forms-validator';
 
 class Login extends React.Component{
     
@@ -104,7 +104,7 @@ class Login extends React.Component{
 
 ## Component and props
 
-```prakash-react-form-validator``` provides a ```Validator``` component. Also provide five (5) required props. For now all props are required.
+```react-forms-validator``` provides a ```Validator``` component. Also provide five (5) required props. For now all props are required.
 
 ```isValidationError``` function.
 
