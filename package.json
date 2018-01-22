@@ -1,6 +1,6 @@
 {
-  "name": "prakash-react-form-validator",
-  "version": "1.0.5",
+  "name": "react-fluent-form-validator",
+  "version": "1.0.1",
   "description": "fluent validation for react",
   "main": "build/index.js",
   "peerDependencies": {
