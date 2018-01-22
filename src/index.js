@@ -103,7 +103,7 @@ export default class Validator extends React.Component{
     render(){
         let { error } = this.state;
         return( 
-            <span className="error" style={{color:red,fontSize:`12'px'`}}>{error}</span>
+            <span className="error" style={{color:'red',fontSize:`12'px'`}}>{error}</span>
         );
     }
 

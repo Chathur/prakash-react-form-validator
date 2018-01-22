@@ -17746,7 +17746,7 @@ var Validator = function (_React$Component) {
 
             return _react2.default.createElement(
                 'span',
-                { className: 'error', style: { color: red, fontSize: '12\'px\'' } },
+                { className: 'error', style: { color: 'red', fontSize: '12\'px\'' } },
                 error
             );
         }
